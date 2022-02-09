@@ -1,0 +1,21 @@
+{
+  "name": "test-node-epsjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@epsproxy/epsjs": "^1.14.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
